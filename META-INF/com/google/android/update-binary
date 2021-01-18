@@ -28,6 +28,30 @@
     ui_print "System_ext detected - Making RW"
     /bin/blockdev --setrw /dev/block/mapper/system_ext 
  fi 
+ if [[ $(ls /dev/block/mapper | grep system_a) ]]; then 
+     ui_print "system_a detected - Making RW"
+     /bin/blockdev --setrw /dev/block/mapper/system_a
+ fi
+ if [[ $(ls /dev/block/mapper | grep system_b) ]]; then 
+     ui_print "system_b detected - Making RW"
+     /bin/blockdev --setrw /dev/block/mapper/system_b
+ fi
+  if [[ $(ls /dev/block/mapper | grep vendor_a) ]]; then 
+     ui_print "vendor_a detected - Making RW"
+     /bin/blockdev --setrw /dev/block/mapper/vendor_a
+ fi
+  if [[ $(ls /dev/block/mapper | grep vendor_b) ]]; then 
+     ui_print "vendor_b detected - Making RW"
+     /bin/blockdev --setrw /dev/block/mapper/vendor_b
+ fi
+  if [[ $(ls /dev/block/mapper | grep product_a) ]]; then 
+     ui_print "product_a detected - Making RW"
+     /bin/blockdev --setrw /dev/block/mapper/product_a
+ fi
+  if [[ $(ls /dev/block/mapper | grep product_b) ]]; then 
+     ui_print "product_b detected - Making RW"
+     /bin/blockdev --setrw /dev/block/mapper/product_b
+ fi
  ui_print "All done !"
 
 
