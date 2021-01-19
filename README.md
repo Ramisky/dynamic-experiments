@@ -22,7 +22,7 @@ The zip has been tested on my device, curtana.
 
 ### Credits ###
 
- [phhusson](https://github.com/phhusson) - Inspiration of this zip
+ [phhusson](https://github.com/phhusson) - Giving the blockdev commands so I could make this zip
  
  [henloboi](https://github.com/JamieHoSzeYui) - Creator of ZIP
  
