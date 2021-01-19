@@ -4,7 +4,7 @@
 
 ### What is this ? ###
 
-Since Q, all (or at least most) phones are released with dynamic parititons, which is pretty straightforward, dynamic partitioning so OEMs can resize / add / delete partitions as their will. In current stages, most of the OEM images are still read-only as unpacked in firmware extractors. Modifying them directly with traditional methods (editing in MT manager / other root explorers) will cause phone not to boot / boot to bootloader in most cases. After some research, it is found that dynamic parititons and the read-only file system is causing such issues. This Zip, makes the partitions Read-write and therefore allows modification towards the partitions. 
+Since the releaes of Android 10, all (or at least most) phones are released with dynamic parititons, which is pretty straightforward, dynamic partitioning so OEMs can resize / add / delete partitions as their will. In current stages, most of the OEM images are still read-only as unpacked in firmware extractors. Modifying them directly with traditional methods (editing in MT manager / other root explorers) will cause phone not to boot / boot to bootloader in most cases. After some research, it is found that dynamic parititons and the read-only file system is causing such issues. This Zip, makes the partitions Read-write and therefore allows modification towards the partitions. 
 
 ### Why is this ? ###
 
