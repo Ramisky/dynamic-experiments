@@ -28,7 +28,6 @@ The zip has been tested on my device, curtana.
  
 ### Downloads ###
 
-Move to "releases" tab, find mkarw release.
-
+[Latest release](https://github.com/JamieHoSzeYui/dynamic-experiments/releases/tag/mkarw-02) // [Releaes archives](https://github.com/JamieHoSzeYui/dynamic-experiments/releases/tag/mkarw-02)
 
 
