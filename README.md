@@ -1,16 +1,16 @@
-# Make ReadWrite (mkarw) #
+# Hotword Enrollment Blobs Nuker (nuker) #
 
 
 
 ### What is this ? ###
 
-Since the releaes of Android 10, all (or at least most) phones are released with dynamic parititons, which is pretty straightforward, dynamic partitioning so OEMs can resize / add / delete partitions as their will. In current stages, most of the OEM images are still read-only as unpacked in firmware extractors. Modifying them directly with traditional methods (editing in MT manager / other root explorers) will cause phone not to boot / boot to bootloader in most cases. After some research, it is found that dynamic parititons and the read-only file system is causing such issues. This Zip, makes the partitions Read-write and therefore allows modification towards the partitions. 
+Basically Fluid on miatoll seems to be struggling with hotword enrollment blobs as they cause issues on curtana devices, I think also they seem to be causing lag issues and they seem to crash media server on such devices, hence why this exists, until R firmware is released for such devices, this will be the defacto fix 
 
 ### Why is this ? ###
 
 This is made possible by ```blockdev```. 
 
-You can run the commands manually, but most people are lazy like me so I made a zip :p 
+You can run the commands manually, but most people are lazy like me (& Henlo) so he made a zip :p 
 
 ### Currently supported partitions ###
 
@@ -18,7 +18,7 @@ You can run the commands manually, but most people are lazy like me so I made a 
 
 ### Proof of the zip working ###
 
-The zip has been tested on my device, curtana.
+The zip has been tested on henlo's device, curtana.
 
 ### Credits ###
 
@@ -28,6 +28,6 @@ The zip has been tested on my device, curtana.
  
 ### Downloads ###
 
-[Latest release](https://github.com/JamieHoSzeYui/dynamic-experiments/releases/tag/mkarw-02) // [Releaes archives](https://github.com/JamieHoSzeYui/dynamic-experiments/releases/tag/mkarw-02)
+[Latest release](https://github.com/Ramisky/hotword-nuker/releases/tag/nuker)
 
 
